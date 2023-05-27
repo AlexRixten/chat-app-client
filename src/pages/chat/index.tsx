@@ -11,7 +11,7 @@ import { ERoutes } from '../../enums/routes.enum';
 
 const io = require('socket.io-client');
 
-export const socket = io.connect('http://localhost:3001');
+export const socket = io.connect('https://chat-api-k587.onrender.com/');
 
 function ChatPage() {
 	const { search } = useLocation();
